@@ -3,4 +3,5 @@ import rollupjs_message from './rollupjs_message';
 
 export default function () {
     rollupjs_alert(rollupjs_message);
+    console.log(rollupjs_message);
 };
