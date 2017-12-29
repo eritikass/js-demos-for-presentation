@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { 
+import {
     sample
 } from 'underscore';
 
