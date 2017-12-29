@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "webpack2": "webpack --config webpack.config-simple.js",
+    "rollup": "rollup -c rollup.config.js"
+  },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "chalk": "^2.3.0",
@@ -10,6 +14,7 @@
     "express": "^4.16.2",
     "moment": "^2.20.1",
     "nodemon": "^1.14.3",
+    "rollup": "^0.53.1",
     "underscore": "^1.8.3",
     "webpack": "^3.10.0",
     "yargs": "^10.0.3"

@@ -1,8 +1,3 @@
-/* 
-module.exports = {
-    entry: './path/to/my/entry/file.js'
-};
-*/
 
 const webpack = require('webpack');
 const path = require('path');
