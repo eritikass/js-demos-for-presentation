@@ -5,6 +5,6 @@ export default {
         file: 'dist/rollupjs.js',
         format: 'iife',
         name: 'myApp',
+        sourcemap: true,
     },
-    sourceMap: true,
   };
