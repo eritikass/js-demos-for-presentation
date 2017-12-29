@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "webpack2": "webpack --config webpack.config-simple.js",
-    "rollup": "rollup -c rollup.config.js"
+    "rollup": "rollup -c rollup.config.js",
+    "express_dev": "nodemon express.js -c"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
